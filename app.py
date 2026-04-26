@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_drawable_canvas import st_canvas
 
+st.markdown('<style>.stApp {background-color: #F5E9DA;}</style>', unsafe_allow_html=True)
+
 st.title("Tablero para dibujo")
 
 with st.sidebar:
